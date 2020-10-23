@@ -11,3 +11,11 @@ You are not marked on the quality of the web app, only on the information it con
 Feel free to copy and adapt this code for your group.
 
 Do not reply on the pages in this repo as a checklist for what needs to be included however. Make sure you carefully read the spec on Moodle which states what needs to be included.
+
+### To use this in Pycharm
+- Create a new project by cloning from VCS (copy and paste in the URL to this repo)
+- Go to the settings/preferences in PyCharm, find the Project section and select Python interpreter. 
+- Next to the Python Interpeter box click on the gear symbol and select Add. Add a new venv for the project.
+- Open https://www.jetbrains.com/help/pycharm/managing-dependencies.html#apply_dependencies to see how to install the dependencies from requirements.txt. An alternative is to open the Terminal that is within Pycharm (View | Tool Windows | Terminal) and type: `pip install -r requirements.txt`
+- Return to Settings/Preferences and find Project | Project Structure. Check that the `templates` directory is shown as a Template Folder (you can use the Mark as options to mark it if it isn't already highlighted).
+- Still in Settings/Preferences, check 
