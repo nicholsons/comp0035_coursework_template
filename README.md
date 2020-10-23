@@ -12,7 +12,7 @@ Feel free to copy and adapt this code for your group.
 
 Do not reply on the pages in this repo as a checklist for what needs to be included however. Make sure you carefully read the spec on Moodle which states what needs to be included.
 
-### To use this in Pycharm
+### To use this repository in Pycharm
 - Create a new project by cloning from VCS (copy and paste in the URL to this repo)
 - Go to the settings/preferences in PyCharm, find the Project section and select Python interpreter. 
 - Next to the Python Interpeter box click on the gear symbol and select Add. Add a new venv for the project.
