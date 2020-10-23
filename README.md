@@ -18,4 +18,5 @@ Do not reply on the pages in this repo as a checklist for what needs to be inclu
 - Next to the Python Interpeter box click on the gear symbol and select Add. Add a new venv for the project.
 - Open https://www.jetbrains.com/help/pycharm/managing-dependencies.html#apply_dependencies to see how to install the dependencies from requirements.txt. An alternative is to open the Terminal that is within Pycharm (View | Tool Windows | Terminal) and type: `pip install -r requirements.txt`
 - Return to Settings/Preferences and find Project | Project Structure. Check that the `templates` directory is shown as a Template Folder (you can use the Mark as options to mark it if it isn't already highlighted).
-- Still in Settings/Preferences, check 
+- Still in Settings/Preferences, check Languages and Frameworks | Flask and make sure there is a tick in the box that says Flask integration (tick rather than a dash). Press OK if you make a change.
+- Still in Settings/Preferences, check Languages and Frameworks | Template Languages and make sure that the Template Language box shows Jinja2 (use the drop down to select it if not then press OK).
