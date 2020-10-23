@@ -1,0 +1,16 @@
+{# Inherit a parent template called base.html #}
+{% extends "base.html" %}
+{# Add the title for this page #}
+{% block title %}Introduction{% endblock %}
+{# Add the content for this page #}
+{% block content %}
+    <h1>Introduction</h1>
+    <h1>Problem (or opportunity) statement</h1>
+    <h1>Goal and objectives</h1>
+    <p>Anything else you think is relevant</p>
+    <p>The following shows how you can include an image and a linked document</p>
+    <img src="{{ url_for('static', filename='docs/random.png') }}">
+    <p>Embedding files is a little more tricky, open this html file and look at the code</p>
+    <a href="{{ url_for('download_file', filename="static/docs/doc1.docx") }}">Download doc1.docx</a>
+</p>
+{% endblock %}

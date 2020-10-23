@@ -1,0 +1,18 @@
+{# Inherit a parent template called base.html #}
+{% extends "base.html" %}
+{# Add the title for this page #}
+{% block title %}Home{% endblock %}
+{# Add the content for this page #}
+{% block content %}
+    <h1>Project name</h1>
+    <h2>Team name</h2>
+    <p>Team members:</p>
+    <ul>
+        <li>Person 1</li>
+        <li>Person 2</li>
+        <li>Person 3</li>
+        <li>Person 4</li>
+    </ul>
+    <h2>Who did what</h2>
+    <p>e.g. a list or table stating the names of each group member and what that person contributed or worked on.</p>
+{% endblock %}
