@@ -22,7 +22,7 @@ Do not reply on the pages in this repo as a checklist for what needs to be inclu
 - Still in Settings/Preferences, check Languages and Frameworks | Template Languages and make sure that the Template Language box shows Jinja2 (use the drop down to select it if not then press OK).
 
 ### To edit the pages using HTML
-Each page inherits the overall structure of the page from a file called `base.html`. This `base.html` includes the navigation bar, the Bootstrap css that is used to style the page, and defines a template area that can be edited for each of the other pages.
+Each page inherits the overall structure of the page from a file called `base.html` which is in the `templates` directory. This `base.html` includes the navigation bar, the Bootstrap css that is used to style the page, and defines a template area that can be edited for each of the other pages.
 
 To edit the content of each page, find the relevant html page in the templates folder and open it.
 
