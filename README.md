@@ -34,11 +34,12 @@ You should see a section that starts and ends:
 {% endblock %}
 ```
 
-Do not remove those lines as they define the start and end of the content section that will be displayed on the web page.
+Do not remove those lines as they are Jinja2 code that defines the start and end of the content section that will be displayed on the web page.
 
-Everything between those tags is currently just HTML.
+Everything between those tags is currently just HTML tags.
 
 You can edit the HTML with the relevant details for your team's project.
 
 HTML is pretty straightforward to use so hopefully you can work this out using a resource such as [w3schools](https://www.w3schools.com/html/).
 
+There are examples in some of the pages for some of the common tasks such as hyperlinking a file (this involves a little Jinja2 so follow the example), including an image, using headings, lists and paragraphs.

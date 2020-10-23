@@ -5,7 +5,13 @@
 {# Add the content for this page #}
 {% block content %}
     <h1>Data set</h1>
-    <p>Data set details e.g. what data is needed for the project, what format the data is provided in, where you got the
-        data (source), if there are any gaps or issues with the data, what cleansing you carried out etc</p>
+    <p>Data set details e.g. </p>
+    <p> A brief description of the data set</p>
+    <p> What you need to do to clean/prepare the data before you can use it. </p>
+    <p> The questions you hope to address in your analysis of the data next term. </p>
     <p>Your completed and signed ethics form.</p>
+    <p>A link to your dataset<p>
+    <p>This link allows the file to be downloaded:
+        <a href="{{ url_for('download_file', filename="static/docs/dataset.xlsx") }}">Download dataset.xlxs</a>
+    </p>
 {% endblock %}
